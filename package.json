@@ -1,0 +1,18 @@
+{
+  "name": "marketplace-chat-rooms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/marketplace_chat.ts",
+    "test": "tsx --test src/marketplace_chat.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
